@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D673B6514FABAC8005689EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D673B6414FABAC8005689EB /* UIKit.framework */; };
+		6D673B6714FABAC8005689EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D673B6614FABAC8005689EB /* Foundation.framework */; };
+		6D673B6914FABAC8005689EB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D673B6814FABAC8005689EB /* CoreGraphics.framework */; };
+		6D673B6F14FABAC8005689EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D673B6D14FABAC8005689EB /* InfoPlist.strings */; };
+		6D673B7114FABAC8005689EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D673B7014FABAC8005689EB /* main.m */; };
+		6D673B7514FABAC8005689EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D673B7414FABAC8005689EB /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6D673B6014FABAC8005689EB /* swipeNewsController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swipeNewsController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D673B6414FABAC8005689EB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6D673B6614FABAC8005689EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6D673B6814FABAC8005689EB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6D673B6C14FABAC8005689EB /* swipeNewsController-Info.plist */ = {isa = PBXFileReference; path = "swipeNewsController-Info.plist"; sourceTree = "<group>"; };
+		6D673B6E14FABAC8005689EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6D673B7014FABAC8005689EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D673B7214FABAC8005689EB /* swipeNewsController-Prefix.pch */ = {isa = PBXFileReference; path = "swipeNewsController-Prefix.pch"; sourceTree = "<group>"; };
+		6D673B7314FABAC8005689EB /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		6D673B7414FABAC8005689EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D673B5D14FABAC8005689EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D673B6514FABAC8005689EB /* UIKit.framework in Frameworks */,
+				6D673B6714FABAC8005689EB /* Foundation.framework in Frameworks */,
+				6D673B6914FABAC8005689EB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D673B5514FABAC8005689EB = {
+			isa = PBXGroup;
+			children = (
+				6D673B6A14FABAC8005689EB /* swipeNewsController */,
+				6D673B6314FABAC8005689EB /* Frameworks */,
+				6D673B6114FABAC8005689EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D673B6114FABAC8005689EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D673B6014FABAC8005689EB /* swipeNewsController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D673B6314FABAC8005689EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D673B6414FABAC8005689EB /* UIKit.framework */,
+				6D673B6614FABAC8005689EB /* Foundation.framework */,
+				6D673B6814FABAC8005689EB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D673B6A14FABAC8005689EB /* swipeNewsController */ = {
+			isa = PBXGroup;
+			children = (
+				6D673B7314FABAC8005689EB /* AppDelegate.h */,
+				6D673B7414FABAC8005689EB /* AppDelegate.m */,
+				6D673B6B14FABAC8005689EB /* Supporting Files */,
+			);
+			path = swipeNewsController;
+			sourceTree = "<group>";
+		};
+		6D673B6B14FABAC8005689EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D673B6C14FABAC8005689EB /* swipeNewsController-Info.plist */,
+				6D673B6D14FABAC8005689EB /* InfoPlist.strings */,
+				6D673B7014FABAC8005689EB /* main.m */,
+				6D673B7214FABAC8005689EB /* swipeNewsController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D673B5F14FABAC8005689EB /* swipeNewsController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D673B7814FABAC8005689EB /* Build configuration list for PBXNativeTarget "swipeNewsController" */;
+			buildPhases = (
+				6D673B5C14FABAC8005689EB /* Sources */,
+				6D673B5D14FABAC8005689EB /* Frameworks */,
+				6D673B5E14FABAC8005689EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = swipeNewsController;
+			productName = swipeNewsController;
+			productReference = 6D673B6014FABAC8005689EB /* swipeNewsController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D673B5714FABAC8005689EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 6D673B5A14FABAC8005689EB /* Build configuration list for PBXProject "swipeNewsController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6D673B5514FABAC8005689EB;
+			productRefGroup = 6D673B6114FABAC8005689EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D673B5F14FABAC8005689EB /* swipeNewsController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D673B5E14FABAC8005689EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D673B6F14FABAC8005689EB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D673B5C14FABAC8005689EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D673B7114FABAC8005689EB /* main.m in Sources */,
+				6D673B7514FABAC8005689EB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6D673B6D14FABAC8005689EB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D673B6E14FABAC8005689EB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D673B7614FABAC8005689EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		6D673B7714FABAC8005689EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D673B7914FABAC8005689EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "swipeNewsController/swipeNewsController-Prefix.pch";
+				INFOPLIST_FILE = "swipeNewsController/swipeNewsController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6D673B7A14FABAC8005689EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "swipeNewsController/swipeNewsController-Prefix.pch";
+				INFOPLIST_FILE = "swipeNewsController/swipeNewsController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D673B5A14FABAC8005689EB /* Build configuration list for PBXProject "swipeNewsController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D673B7614FABAC8005689EB /* Debug */,
+				6D673B7714FABAC8005689EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D673B7814FABAC8005689EB /* Build configuration list for PBXNativeTarget "swipeNewsController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D673B7914FABAC8005689EB /* Debug */,
+				6D673B7A14FABAC8005689EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D673B5714FABAC8005689EB /* Project object */;
+}
